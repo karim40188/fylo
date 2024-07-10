@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .element-center {
+    @apply flex justify-center items-center;
+  }
+  .btn {
+    @apply bg-[rgb(100,224,218)] p-2;
+  }
+  .space{
+  @apply  flex gap-3 p-[10px] items-center
+  }
+}
+body {
+  background-color: #181e2a;
+}
+
+
